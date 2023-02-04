@@ -210,7 +210,6 @@ function Checkout() {
               </div>
             </form>
           </div>
-          {/* <a href="payment.html">​<button className="Chkbtn">Place Order</button></a> */}
         </div>
       </div>
     </>

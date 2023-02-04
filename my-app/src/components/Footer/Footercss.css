@@ -32,6 +32,10 @@
   margin-top: 20px;
   margin-left: 20px;
 }
+.middleDiv{
+  display: flex;
+  justify-content: space-between;
+}
 .Footerbar2 {
   width: 15%;
   height: 430px;
@@ -232,14 +236,14 @@
 }
 .Footercall {
   font-size: 18px;
-  margin-left: 18px;
+  margin-left: 10px;
   margin-top: 4px;
   color: rgb(142, 192, 56);
 }
 .Footeremail {
   font-size: 18px;
-  margin-left: 18px;
-  margin-top: 18px;
+  margin-left: 10px;
+  margin-top: 4px;
   color: rgb(142, 192, 56);
 }
 .Footerlocation {
@@ -253,4 +257,71 @@
   color: rgb(142, 192, 56);
   margin-top: 40px;
   margin-left: -80px;
+}
+
+
+@media screen and (max-width:768px) {
+  .Footer {
+    width: 100%;
+    height: auto;
+   
+    background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2019/10/footer-bg.png");
+    background-color: rgb(41, 45, 53);
+  }
+  .Footer1 {
+   
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .wavebottom{
+    width: auto;
+  }
+  .Footerbar1 {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .middleDiv{
+    display: flex;
+    margin: auto;
+  }
+  .Footerbar2 {
+    width: auto;
+    height: auto;
+    margin:auto;
+  }
+  .Footerbar4 {
+    display: grid;
+    grid-template-columns: auto;
+    width:100%;
+    height: auto;
+    margin: auto;
+  }
+ 
+  .contact{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .mail{
+   
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+  }
+  .location{
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+  }
+  .copyright {
+    width:auto;
+    height:auto;
+   
+  }
+  #bottomtag {
+  margin: auto;
+    padding-top: 18px;
+  }
 }

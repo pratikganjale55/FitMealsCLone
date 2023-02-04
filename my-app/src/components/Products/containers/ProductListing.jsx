@@ -90,7 +90,7 @@ const ProductPage = () => {
 
         <div className="productrightDiv">
           <div className="productsortDiv">
-            <p>Showing {products.length} results</p>
+            <p>{products.length} results</p>
 
             <select onChange={handleSort}>
               <option>Default sorting</option>

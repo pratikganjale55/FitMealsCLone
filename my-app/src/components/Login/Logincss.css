@@ -171,3 +171,21 @@
   border: 0 !important;
   text-decoration: none;
 }
+
+
+@media screen and (max-width:768px) {
+  .loginMainDiv{
+    margin: auto;
+    border: 1px solid black;
+  }
+  .logincontainer {
+    width: auto;
+    height: fit-content;
+    padding: 50px;
+    border: 3px solid rgb(27, 27, 27);
+    margin: auto;
+    text-align: left;
+    border-radius: 25px;
+   
+  }
+}

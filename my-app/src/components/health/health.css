@@ -102,6 +102,8 @@ width: 100%;
 margin-top: 30px;
 }
 .contentimg>img{
+  width: 80%;
+  height: 80%;
 border-radius: 20px;
 }
 .content>p:nth-child(1){
@@ -159,7 +161,7 @@ h2,h6{
 }
 #list_of_times{
   display: flex;
-  /* border: 2px solid blue; */
+  
   height: 580px;
 }
 #list_of_times > div{
@@ -521,3 +523,75 @@ font-family: sans-serif;
 
 }
 
+@media screen and (max-width: 768px){
+  .appointment{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns:auto;
+    
+    
+  }
+  #container{
+    width: auto;
+    height: auto;
+  }
+  #container1{
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto;
+   height: auto;
+  
+  }
+  #list_of_times{
+    display: block;
+    
+    height: auto;
+  }
+  .content{
+    margin: auto;
+    justify-content: center;
+  }
+  .content>p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .content>p{
+    font-size: 10px;
+    font-family: sans-serif;
+   
+    margin-left: 20px;
+    
+  }
+  #container4{
+    display: block;
+    height: auto;
+    margin: auto;
+    padding: 0;
+  }
+  #container4 div{
+    width: auto;
+    margin: auto;
+    margin-left: 0;
+  }
+  #container4 > div > img:first-child{
+    height: auto;
+    /* width: 600px; */
+    border-radius: 20px;
+    margin-left: auto;
+  }
+  #container3{
+  
+    height: auto;
+   width: auto;
+   display: grid;
+   grid-template-columns: auto;
+   
+  }
+  #container3 > div p:first-child{
+   
+    font-size: 40px;
+                      
+  }
+  
+}

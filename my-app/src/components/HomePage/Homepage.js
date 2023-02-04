@@ -74,13 +74,13 @@ const Homepage = () => {
           </h1>
           <p
             style={{
-              textAlign: "left",
+              // textAlign: "left",
               fontFamily: "Open Sans",
               fontSize: "16px",
               fontWeight: "bold",
-              paddingRight: "20px",
+              // paddingRight: "20px",
               marginTop: "20px",
-              marginBottom: "-40px",
+              // marginBottom: "-40px",
             }}
           >
             We break the stereotype ‘healthy eating is boring”. Reach your
@@ -91,12 +91,12 @@ const Homepage = () => {
             healthy eating fun and effortless!
           </p>
         </div>
-        <div>
+        {/* <div>
           <img
             className={Styles.img2}
             src="https://www.fitmeals.co.in/wp-content/uploads/2019/10/health-bottle-cut.jpg"
           />
-        </div>
+        </div> */}
         <div>
           <div className={Styles.para2}>
             <i className="fas fa-check"></i>
@@ -132,7 +132,7 @@ const Homepage = () => {
             version of yourself. .
           </p>
         </div>
-
+     
         <div className={Styles.logosDiv}>
           <div>
             <i className="fas fa-box"></i>
@@ -190,7 +190,7 @@ const Homepage = () => {
             <h1
               className={Styles.homepageh1Tag}
               style={{
-                fontSize: "50px",
+                fontSize: "40px",
                 fontFamily: "Fira Sans",
                 marginBottom: "34px",
               }}

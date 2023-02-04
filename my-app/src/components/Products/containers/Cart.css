@@ -170,3 +170,19 @@ table {
 .checkoutbutton:hover:after {
   background: #da2424;
 }
+
+
+@media screen and (max-width:768px){
+  .cartTable{
+    width: auto;
+  }
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border: none;
+    border-top: 1px solid #292d35;
+  }
+  
+}

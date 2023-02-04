@@ -280,3 +280,57 @@
   background-color: white;
   color: black;
 }
+
+
+@media screen and (max-width:768px) {
+  .mainProdDiv {
+    width: auto;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .productleftDiv{
+    width: auto;
+  }
+  .prodContainer {
+    display: grid;
+    grid-template-columns:auto;
+    gap: 20px;
+    padding: 2%;
+    margin: auto;
+   
+  }
+  .prodContainer >div{
+    margin: auto;
+    
+  }
+  .productcard {
+    display: block;
+  
+   align-items: center;
+   justify-content: center;
+  }
+  .productsortDiv {
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 2%;
+  }
+  
+  .productsortDiv > p {
+    
+    font-size: 10px;
+  }
+  
+  .productsortDiv > select {
+    background-color: #f3f5ed;
+    color: #281819;
+    border: none;
+    height: 100%;
+    width: auto;
+    font-size: 10px;
+   
+    cursor: pointer;
+  }
+}

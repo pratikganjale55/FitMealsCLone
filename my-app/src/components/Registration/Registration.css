@@ -163,3 +163,15 @@ select {
   padding-top: 150px;
   margin-top: 90px;
 }
+
+
+@media screen and (max-width:768px) {
+  .regmainsignup{
+    margin: auto;
+    width: auto;
+  }
+  .userreg{
+    width: auto;
+    margin: auto;
+  }
+}

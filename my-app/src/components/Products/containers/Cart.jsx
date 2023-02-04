@@ -33,7 +33,7 @@ export const Cart = () => {
             <thead>
               <tr className="headerTr">
                 <td style={{ width: "79px" }}>&nbsp;</td>
-                <td>&nbsp;</td>
+
                 <td>Product</td>
                 <td>Price</td>
                 <td>Quantity</td>

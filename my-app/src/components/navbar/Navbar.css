@@ -5,11 +5,11 @@
 /* Navbar CSS  */
 
 .fullnavbar {
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0;
   left: 0;
-  right: 0;
-  z-index: 9999;
+  right: 0; */
+  /* z-index: 9999; */
   background-color: white;
   font-family: "Fira Sans", sans-serif;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
@@ -20,7 +20,8 @@
   display: flex;
   height: 50px;
   width: 100%;
-  border: 1px solid rgb(177, 171, 171);
+  padding: 2%;
+  /* border: 1px solid rgb(177, 171, 171); */
   background-color: white;
 }
 
@@ -78,23 +79,32 @@
   width: 15%;
 } */
 
-.nav_first img {
+.navbarContent {
+  
+  width: 60%;
+  justify-content: space-around;
+}
+.navbarContent Link {
+  
+  width: 30px;
+}
+img {
   height: 60px;
   /* margin: 20px; */
   cursor: pointer;
 }
 .nav_sec {
-  display: flex;
-  height: 60px;
-  justify-content: space-around;
-  /* margin-left: 300px;
-  margin-top: 20px; */
-  /* width: 70%; */
-  margin-left: 0px;
+  
+  /* border: 1px solid black; */
+justify-content: space-between;
+  color: black;
+}
+.nav_sec ul {
+  color: black;
 }
 .nav_sec div {
   padding: 8px;
-  color: black;
+
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
@@ -115,15 +125,37 @@
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
 }
+
 .nav_third:hover {
   background-color: #8ae237;
 }
+.div_hover li {
+  text-decoration: none;
+  color: black;
+}
+
 .div_hover:hover {
+  text-decoration: none;
   color: #8ae237;
 }
 .dropdown {
   position: relative;
   display: inline-block;
+}
+.dropList {
+  color: black;
+}
+.dropList:hover {
+  background-color: #d3f5b4;
+  text-decoration: none;
+}
+.dropLink{
+ font-size: 15px;
+
+}
+.dropLink:hover{
+  background-color: #d3f5b4;
+  text-decoration: none;
 }
 .dropbtn {
   background-color: white;
@@ -181,10 +213,9 @@
   height: 500px;
   width: 100%;
   border-radius: 10px;
-  /* overflow: hidden; */
+
   animation: sliderZoomEffect 8s linear infinite;
-  /* filter: blur(2px);
-  -webkit-filter: blur(2px); */
+
   color: rgba(0, 0, 0, 0.2);
   object-fit: cover;
 }
@@ -258,4 +289,25 @@
   left: 25%;
   color: white;
   font-size: 200%;
+}
+.navbarul {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .navbarleftDiv {
+    width: 100%;
+    padding-left: 10%;
+    align-items: center;
+    justify-content: space-around;
+  }
+.navbarrightDiv{
+  position: absolute;
+  display: block;
+     top: 30%;
+     right: 3%;
+     margin: auto;
+     width: auto;
+    
+}
 }

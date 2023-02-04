@@ -70,7 +70,7 @@ function Login() {
       <div id="loginbackground">
         <h1 id="account">My account</h1>
       </div>
-      <div>
+      <div  className="loginMainDiv">
         <div className="logincontainer">
           <div className="form">
             <h1 style={{ fontFamily: "Fira Sans" }}>Login</h1>
@@ -130,28 +130,7 @@ function Login() {
                 ) : null}
                 <br />
               </div>
-              {/* <div className="formGroup">
-                <input
-                  type="password"
-                  id="confirmPassword"
-                  name="ConfirmPassword"
-                  placeholder="Confirm Password"
-                  value={formik.values.ConfirmPassword}
-                  onChange={formik.handleChange}
-                  onBlur={formik.handleBlur}
-                  required
-                  autocomplete="off"
-                />
-                {formik.touched.ConfirmPassword &&
-                formik.errors.ConfirmPassword ? (
-                  <span>{formik.errors.ConfirmPassword}</span>
-                ) : null}
-                <br />
-              </div> */}
-              {/* <div className="checkBox">
-                <input type="checkbox" name="checkbox" id="checkbox" />
-                <span className="text">I agree with term & conditions</span>
-              </div> */}
+              
               <div className="formGroup">
                 <button
                   id="button2"

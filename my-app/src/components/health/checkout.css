@@ -1,45 +1,4 @@
-/* .page-header {
-  background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: var(--black);
-  height: 400px;
-  margin: 0;
-  background-color: #292d35;
-  margin-top: 100px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 0;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: 50% 0px;
-  background-size: cover;
-  border: 0 none;
-  opacity: 50%;
-  filter: brightness(0.8);
-  filter: drop-shadow(16px 16px 20px black);      
-  filter: contrast(90%);
-}
-#container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  padding: 150px 15px;
-  position: relative;
-  z-index: 2;
-} */
-/* h1 {
-  font-size: 54px;
-  font-weight: 800;
-  color: #fff;
-  font-family: "Mukta", sans-serif;
-}
 
-body {
-  margin: 0;
-} */
 #inner-container-checkout {
   /* border: 2px solid red; */
   width: 70%;
@@ -64,15 +23,7 @@ a {
 a:hover {
   color: #91c23e;
 }
-/* p {
-  font-size: 40px;
-  font-weight: 900;
-} */
-/* input{
-            border-radius: 30px;
-            padding: 18px;
-            border: 1px solid grey;
-        } */
+
 sup {
   color: red;
 }
@@ -175,4 +126,42 @@ label {
 #imgtrio > i {
   font-size: 25px;
   color: #8ec038;
+}
+
+@media screen and (max-width:768px) {
+  #checkout_form {
+  
+    padding: auto;
+    width: auto;
+   margin: auto;
+   border-radius: 25px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+ .inner {
+  margin: auto;
+}
+select {
+  padding: 18px;
+  border-radius: 15px;
+  color: #383d46;
+  width: 15%;
+  /* text-align: center; */
+  font-size: 17px;
+}
+option {
+  font-weight: 100;
+ 
+}
+.Chkbtn {
+  width: auto;
+  height: 40px;
+  
+  border-radius: 15px;
+ 
+
+  font-size: 12px;
+  color: white;
+  margin-top: 30px;
+}
+
 }

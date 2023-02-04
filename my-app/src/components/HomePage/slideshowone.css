@@ -1,6 +1,6 @@
 .slide-container {
-  direction: ltr;
-  width: 100%;
+  /* direction: ltr; */
+  /* width: 100%; */
   margin: auto;
   margin-top: 150px;
   box-sizing: border-box;
@@ -12,6 +12,7 @@
   justify-content: center;
   background-size: cover;
   height: 600px;
+  object-fit: cover;
 }
 /* .react-slideshow-container .nav[data-type="prev"] span {
   margin-left: 15px;

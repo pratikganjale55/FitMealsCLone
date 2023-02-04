@@ -68,3 +68,12 @@
     margin: auto;
     color: #98c64a;
   }
+
+  @media screen and (max-width:768px) {
+    #container2{
+      display: grid;
+      grid-template-columns: auto;
+      height: auto;
+    }
+   
+  }

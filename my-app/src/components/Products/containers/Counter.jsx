@@ -14,7 +14,7 @@ export const Counter = (props) => {
         display: "flex",
         border: "1px solid grey",
         borderRadius: "37px",
-        width: "95px",
+        width: "90px",
         height: "50px",
         display: "flex",
         justifyContent: "center",
